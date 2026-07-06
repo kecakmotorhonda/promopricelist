@@ -35,7 +35,7 @@ window.KECAK_DATA = {
       60
     ]
   },
-  "trackEndpoint": "",
+  "trackEndpoint": "https://script.google.com/macros/s/AKfycbyG7fykH943YJVWT-7hIqA453M4nP3rv2ha2CLezHb5w2GiUMEDodU6luaE-6sxtaQ/exec",
   "segments": [
     {
       "id": "umum",
