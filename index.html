@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Promo Bulan Ini | Kecak Motor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,700;0,900;1,900&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --red:#E4002B; --red-deep:#B00021; --ink:#131317; --ink-2:#1d1d24; --ink-3:#2a2a33;
+    --paper:#f7f5f0; --grey:#9b9ba6; --green:#2fd482; --amber:#f79009;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html { scroll-behavior:smooth; }
+  body {
+    font-family:'Plus Jakarta Sans',sans-serif; background:var(--ink); color:var(--paper); min-height:100vh;
+    padding-bottom:40px;
+    background-image:
+      radial-gradient(ellipse 90% 38% at 50% -6%, rgba(228,0,43,.32), transparent 62%),
+      repeating-linear-gradient(115deg, transparent 0 52px, rgba(255,255,255,.013) 52px 53px);
+  }
+  .wrap { max-width:480px; margin:0 auto; padding:24px 16px 0; }
+
+  header { display:flex; align-items:center; justify-content:space-between; }
+  .brand { font-family:'Archivo',sans-serif; font-weight:900; font-size:19px; text-transform:uppercase; letter-spacing:.04em; }
+  .brand em { color:var(--red); font-style:normal; }
+  .countdown { font-size:11px; font-weight:700; color:var(--amber); text-align:right; line-height:1.4; }
+
+  .hero { margin:22px 0 4px; }
+  .month-tag {
+    display:inline-block; background:var(--red); color:#fff; font-family:'Archivo',sans-serif;
+    font-weight:700; font-size:11.5px; letter-spacing:.14em; text-transform:uppercase;
+    padding:5px 12px; border-radius:4px; transform:rotate(-1.5deg);
+  }
+  h1 { font-family:'Archivo',sans-serif; font-weight:900; font-style:italic; text-transform:uppercase;
+    font-size:clamp(34px,10vw,44px); line-height:.95; margin:12px 0 6px; }
+  .sub { color:var(--grey); font-size:13px; }
+
+  /* sticky category pills */
+  .pills {
+    position:sticky; top:0; z-index:30; display:flex; gap:8px; overflow-x:auto;
+    padding:12px 16px; margin:14px -16px 4px;
+    background:linear-gradient(rgba(19,19,23,.97), rgba(19,19,23,.92));
+    backdrop-filter:blur(8px); scrollbar-width:none;
+  }
+  .pills::-webkit-scrollbar { display:none; }
+  .pill {
+    flex:0 0 auto; padding:8px 15px; border-radius:999px; font-size:12.5px; font-weight:700;
+    color:var(--grey); background:var(--ink-2); border:1.5px solid rgba(255,255,255,.1); text-decoration:none;
+  }
+  .pill:active, .pill.hot { color:#fff; border-color:var(--red); background:rgba(228,0,43,.18); }
+
+  .cat { font-family:'Archivo',sans-serif; font-weight:900; text-transform:uppercase; font-size:14px;
+    letter-spacing:.06em; margin:26px 0 12px; display:flex; align-items:center; gap:10px; scroll-margin-top:64px; }
+  .cat::after { content:""; flex:1; height:1px; background:linear-gradient(90deg, rgba(255,255,255,.18), transparent); }
+
+  a.unit {
+    display:block; background:var(--ink-2); border:1px solid rgba(255,255,255,.09);
+    border-radius:16px; padding:16px; margin-bottom:12px; text-decoration:none; color:var(--paper);
+    position:relative; overflow:hidden; transition:border-color .15s, transform .1s;
+  }
+  a.unit:active { border-color:var(--red); transform:scale(.985); }
+  a.unit.promo::before {
+    content:""; position:absolute; left:0; top:0; bottom:0; width:3px;
+    background:linear-gradient(var(--red), var(--red-deep));
+  }
+  .u-top { display:flex; justify-content:space-between; align-items:flex-start; gap:10px; }
+  .u-name { font-weight:800; font-size:16px; line-height:1.2; }
+  .u-variants { font-size:11px; color:var(--grey); margin-top:3px; }
+  .u-badge {
+    flex:0 0 auto; background:rgba(47,212,130,.14); color:var(--green);
+    font-size:11.5px; font-weight:800; padding:5px 10px; border-radius:7px; white-space:nowrap;
+  }
+  .u-price-row { display:flex; align-items:baseline; gap:10px; margin-top:12px; flex-wrap:wrap; }
+  .u-price-label { font-size:10px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--grey); width:100%; }
+  .u-price { font-family:'Archivo',sans-serif; font-weight:900; font-size:clamp(24px,6.8vw,28px); color:#fff; line-height:1; }
+  .u-price-old { font-size:13px; color:var(--grey); text-decoration:line-through; font-weight:600; }
+  .u-cta { position:absolute; right:14px; bottom:14px; color:var(--red); font-size:24px; font-weight:900; font-family:'Archivo',sans-serif; }
+
+  footer { margin-top:34px; text-align:center; font-size:10.5px; color:#55555f; line-height:1.6; }
+
+  .rv { opacity:0; transform:translateY(12px); animation:rv .5s cubic-bezier(.2,.7,.3,1) forwards; }
+  @keyframes rv { to { opacity:1; transform:none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="rv">
+    <div class="brand" style="display:flex;align-items:center;gap:9px;"><img src="logo-icon.png" alt="Kecak Motor" style="height:34px;width:auto;"><span>Kecak <em>Motor</em></span></div>
+    <div class="countdown" id="countdown"></div>
+  </header>
+  <div class="hero">
+    <span class="month-tag rv" style="animation-delay:.05s" id="monthTag"></span>
+    <h1 class="rv" style="animation-delay:.1s">Harga &amp; Promo<br><span id="h1month"></span></h1>
+    <div class="sub rv" style="animation-delay:.15s">Harga OTR Bali resmi setelah diskon. Klik unit untuk detail &amp; simulasi kredit.</div>
+  </div>
+  <nav class="pills rv" style="animation-delay:.2s" id="pills"></nav>
+  <div id="catalog"></div>
+  <footer>Halaman promo resmi Kecak Motor - harga dapat berubah sesuai SK &amp; program bulan berjalan.<br>Hadiah &amp; bonus berlaku selama persediaan masih ada.</footer>
+</div>
+<script src="data.js"></script>
+<script>
+(function(){
+  const D = window.KECAK_DATA;
+  const rupiah = n => "Rp " + Math.round(n).toLocaleString("id-ID");
+  const net = g => Math.round(g / (1 + D.ppnRate));
+  const qs = location.search || "";
+
+  document.getElementById("monthTag").textContent = "Promo " + D.monthLabel;
+  document.getElementById("h1month").textContent = D.monthLabel;
+  document.title = "Harga & Promo " + D.monthLabel + " | " + D.dealer;
+  const dl = Math.ceil((new Date(D.periodEnd + "T23:59:59") - new Date()) / 86400000);
+  const cd = document.getElementById("countdown");
+  if (dl > 7) cd.textContent = "Berlaku s.d. 31 " + D.monthLabel;
+  else if (dl > 0) cd.textContent = "Berakhir " + dl + " hari lagi!";
+
+  const order = ["matic","cub","sport","ev","premium"].filter(c => D.categories[c] && Object.values(D.units).some(u => u.category === c));
+  const pills = document.getElementById("pills");
+  order.forEach(c => {
+    const a = document.createElement("a");
+    a.className = "pill"; a.href = "#cat-" + c; a.textContent = D.categories[c];
+    pills.appendChild(a);
+  });
+
+  const cat = document.getElementById("catalog");
+  let idx = 0;
+  order.forEach(c => {
+    const units = Object.entries(D.units).filter(([id,u]) => u.category === c);
+    if (!units.length) return;
+    const h = document.createElement("div");
+    h.className = "cat"; h.id = "cat-" + c; h.textContent = D.categories[c];
+    cat.appendChild(h);
+    units.sort((a,b) => a[1].variants[0].otr - b[1].variants[0].otr);
+    units.forEach(([id,u]) => {
+      const discFor = v => net(v.discGross != null ? v.discGross : u.baseDiscGross);
+      const segMax = Math.max(0, ...Object.values(u.segDiscGross || {}).map(net));
+      const maxDisc = Math.max(...u.variants.map(discFor), segMax);
+      const cheapest = u.variants.reduce((a,v) => (v.otr - discFor(v) < a.otr - discFor(a) ? v : a));
+      const priceNow = cheapest.otr - discFor(cheapest);
+      const hasCut = discFor(cheapest) > 0;
+
+      const a = document.createElement("a");
+      a.className = "unit rv" + (maxDisc > 0 ? " promo" : "");
+      a.style.animationDelay = Math.min(0.25 + idx * 0.04, 0.7) + "s"; idx++;
+      a.href = id + "/" + qs;
+      a.innerHTML =
+        '<div class="u-top"><div><div class="u-name">' + u.name + '</div>' +
+        '<div class="u-variants">' + u.variants.length + ' varian</div></div>' +
+        (maxDisc > 0 ? '<div class="u-badge">Hemat s.d. ' + rupiah(maxDisc) + '</div>' : '') + '</div>' +
+        '<div class="u-price-row"><span class="u-price-label">Mulai dari</span>' +
+        '<span class="u-price">' + rupiah(priceNow) + '</span>' +
+        (hasCut ? '<span class="u-price-old">' + rupiah(cheapest.otr) + '</span>' : '') + '</div>' +
+        '<div class="u-cta">&rsaquo;</div>';
+      cat.appendChild(a);
+    });
+  });
+})();
+</script>
+</body>
+</html>
