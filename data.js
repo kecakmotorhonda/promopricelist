@@ -12,17 +12,41 @@ window.KECAK_DATA = {
   "ppnRate": 0.11,
   "showSegmentAmounts": true,
   "salespeople": {
-    "wirajaya": {
-      "name": "Wirajaya",
-      "wa": "6287886406480"
+    "regy": {
+      "name": "Regy",
+      "wa": "6281816661644"
+    },
+    "arik": {
+      "name": "Arik",
+      "wa": "6287862557487"
+    },
+    "sukreni": {
+      "name": "Sukreni",
+      "wa": "6281916594711"
     },
     "hesty": {
       "name": "Hesty",
       "wa": "6287860852525"
     },
+    "rofik": {
+      "name": "Rofik",
+      "wa": "6281547627944"
+    },
+    "wira": {
+      "name": "Wira",
+      "wa": "6287886406480"
+    },
+    "richard": {
+      "name": "Richard",
+      "wa": "6285737370251"
+    },
     "diah": {
       "name": "Diah",
       "wa": "6285792032052"
+    },
+    "suli": {
+      "name": "Suli",
+      "wa": "6281358268675"
     }
   },
   "credit": {
