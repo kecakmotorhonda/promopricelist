@@ -47,6 +47,18 @@ window.KECAK_DATA = {
     "suli": {
       "name": "Suli",
       "wa": "6281358268675"
+    },
+    "tjok-krisna": {
+      "name": "Tjok Krisna",
+      "wa": "6287860215866"
+    },
+    "lode": {
+      "name": "Lode",
+      "wa": "6287761514894"
+    },
+    "risky": {
+      "name": "Risky",
+      "wa": "6281337794294"
     }
   },
   "credit": {
