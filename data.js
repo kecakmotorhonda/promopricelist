@@ -59,6 +59,10 @@ window.KECAK_DATA = {
     "risky": {
       "name": "Risky",
       "wa": "6281337794294"
+    },
+    "christian": {
+      "name": "Christian",
+      "wa": "6281314750593"
     }
   },
   "credit": {
