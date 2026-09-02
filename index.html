@@ -112,7 +112,7 @@
   document.title = "Harga & Promo " + D.monthLabel + " | " + D.dealer;
   const dl = Math.ceil((new Date(D.periodEnd + "T23:59:59") - new Date()) / 86400000);
   const cd = document.getElementById("countdown");
-  if (dl > 7) cd.textContent = "Berlaku s.d. 31 " + D.monthLabel;
+  if (dl > 7) cd.textContent = "Berlaku s.d. " + parseInt(D.periodEnd.split("-")[2],10) + " " + D.monthLabel;
   else if (dl > 0) cd.textContent = "Berakhir " + dl + " hari lagi!";
 
   const order = ["matic","cub","sport","ev","premium"].filter(c => D.categories[c] && Object.values(D.units).some(u => u.category === c));

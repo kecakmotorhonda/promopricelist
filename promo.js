@@ -24,6 +24,7 @@
   const totalDiscount = () => Math.max(baseNet(), extraNet());
   const netPrice = () => state.variant.otr - totalDiscount();
   const daysLeft = () => Math.ceil((new Date(D.periodEnd + "T23:59:59") - new Date()) / 86400000);
+  const endDay = () => parseInt(D.periodEnd.split("-")[2], 10);
   const salesPerson = () => (D.salespeople && D.salespeople[src.sales]) || null;
   const routeToSales = () => !!salesPerson() && !src.loc && !src.co;
 
@@ -160,7 +161,7 @@
       </div>
     </section>
     <a class="other-units" href="../${qs}">Lihat unit lain &rsaquo;</a>
-    <footer>Halaman promo resmi <b>${D.dealer}</b> - Program berlaku 1-31 ${D.monthLabel}<br>Hadiah &amp; bonus berlaku selama persediaan masih ada.</footer>
+    <footer>Halaman promo resmi <b>${D.dealer}</b> - Program berlaku 1-${D.periodEnd.split("-")[2].replace(/^0/,"")} ${D.monthLabel}<br>Hadiah &amp; bonus berlaku selama persediaan masih ada.</footer>
   </div>
   <div class="cta-bar"><a class="wa-btn" id="waBtn" target="_blank" rel="noopener">
     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.87 9.87 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.83 14.12c-.25.7-1.45 1.33-2.02 1.42-.52.08-1.17.11-1.89-.12-.44-.14-1-.32-1.71-.63-3.02-1.3-4.99-4.34-5.14-4.54-.15-.2-1.23-1.63-1.23-3.12 0-1.48.78-2.21 1.05-2.51.28-.3.6-.38.8-.38h.58c.18 0 .43-.07.67.51.25.6.85 2.08.92 2.23.08.15.13.33.03.53-.1.2-.15.33-.3.5-.15.18-.32.4-.45.53-.15.15-.31.31-.13.61.18.3.79 1.31 1.7 2.12 1.17 1.04 2.16 1.37 2.46 1.52.3.15.48.13.65-.08.18-.2.75-.88.95-1.18.2-.3.4-.25.68-.15.28.1 1.75.83 2.05.98.3.15.5.22.58.35.07.13.07.72-.18 1.41z"/></svg>
@@ -216,7 +217,7 @@
         v: D.showSegmentAmounts ? "- " + rupiah(extraNet()) : "Spesial" });
     } else if (bg > 0) {
       rows.push({ t: "Diskon " + D.monthLabel.split(" ")[0] + " (semua pembeli)",
-        d: U.baseNote || ("Berlaku 1-31 " + D.monthLabel.split(" ")[0]), v: "- " + rupiah(net(bg)) });
+        d: U.baseNote || ("Berlaku 1-" + endDay() + " " + D.monthLabel.split(" ")[0]), v: "- " + rupiah(net(bg)) });
       const ex = extraNet();
       if (ex > 0 && ex <= net(bg)) rows.push({ t: "Info: diskon " + state.segment.label,
         d: "Tidak digabung - kamu otomatis dapat yang terbesar (diskon umum)", v: rupiah(ex) });
@@ -281,7 +282,7 @@
     if (routeToSales()) chip = "Dilayani oleh " + salesPerson().name + " - " + D.dealer;
     document.getElementById("locLabel").textContent = chip;
     const dl = daysLeft(), cd = document.getElementById("countdown");
-    if (dl > 7) cd.textContent = "Berlaku sampai 31 " + D.monthLabel;
+    if (dl > 7) cd.textContent = "Berlaku sampai " + endDay() + " " + D.monthLabel;
     else if (dl > 0) cd.textContent = "Buruan! Promo berakhir " + dl + " hari lagi";
     if (dl <= 0) document.getElementById("expiredOverlay").classList.add("show");
   }

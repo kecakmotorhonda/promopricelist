@@ -5,10 +5,10 @@
 window.KECAK_DATA = {
   "dealer": "Kecak Motor",
   "waNumber": "6287855909295",
-  "lastUpdated": "2026-08-03",
-  "periodStart": "2026-08-01",
-  "periodEnd": "2026-08-31",
-  "monthLabel": "Agustus 2026",
+  "lastUpdated": "2026-09-02",
+  "periodStart": "2026-09-01",
+  "periodEnd": "2026-09-30",
+  "monthLabel": "September 2026",
   "ppnRate": 0.11,
   "showSegmentAmounts": true,
   "salespeople": {
@@ -145,7 +145,7 @@ window.KECAK_DATA = {
           "otr": 21990000
         }
       ],
-      "baseDiscGross": 222000,
+      "baseDiscGross": 0,
       "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {
@@ -166,12 +166,6 @@ window.KECAK_DATA = {
           "value": 270000,
           "stock": true,
           "desc": "Selama persediaan masih ada"
-        },
-        {
-          "label": "Jaket BeAT Sporty",
-          "value": 150000,
-          "stock": true,
-          "desc": "Kuota terbatas, selama persediaan ada"
         }
       ]
     },
@@ -186,7 +180,7 @@ window.KECAK_DATA = {
         }
       ],
       "baseDiscGross": 555000,
-      "baseNote": "Program Street Warior",
+      "baseNote": "Program Street Warior (via MotorkuX)",
       "creditOnly": false,
       "segDiscGross": {
         "hotel": 666000,
@@ -261,7 +255,7 @@ window.KECAK_DATA = {
           "id": "mr0e",
           "label": "Energetic",
           "otr": 25050000,
-          "discGross": 499500
+          "discGross": 555000
         },
         {
           "id": "mr0c",
@@ -272,13 +266,13 @@ window.KECAK_DATA = {
           "id": "mrae",
           "label": "Fashion",
           "otr": 25400000,
-          "discGross": 499500
+          "discGross": 555000
         },
         {
           "id": "mrbe",
           "label": "Fashion (MRBE)",
           "otr": 25400000,
-          "discGross": 499500
+          "discGross": 555000
         },
         {
           "id": "mrbc",
@@ -294,25 +288,25 @@ window.KECAK_DATA = {
           "id": "ms0e",
           "label": "Prestige",
           "otr": 26280000,
-          "discGross": 499500
+          "discGross": 555000
         },
         {
           "id": "msae",
           "label": "Stylish",
           "otr": 26280000,
-          "discGross": 499500
+          "discGross": 555000
         },
         {
           "id": "ms1e",
           "label": "Prestige (MS1E)",
           "otr": 26280000,
-          "discGross": 499500
+          "discGross": 555000
         },
         {
           "id": "msbe",
           "label": "Stylish (MSBE)",
           "otr": 26280000,
-          "discGross": 499500
+          "discGross": 555000
         },
         {
           "id": "ms1k",
@@ -325,14 +319,14 @@ window.KECAK_DATA = {
           "otr": 27535000
         }
       ],
-      "baseDiscGross": 333000,
+      "baseDiscGross": 0,
       "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {
-        "hotel": 666000,
-        "villa": 666000,
-        "kmp": 666000,
-        "sppg": 666000
+        "hotel": 555000,
+        "villa": 555000,
+        "kmp": 555000,
+        "sppg": 555000
       },
       "gifts": [
         {
@@ -383,13 +377,13 @@ window.KECAK_DATA = {
           "id": "nf0b",
           "label": "STD",
           "otr": 29000000,
-          "discGross": 555000
+          "discGross": 666000
         },
         {
           "id": "nf0c",
           "label": "STD (NF0C)",
           "otr": 29130000,
-          "discGross": 555000
+          "discGross": 666000
         }
       ],
       "baseDiscGross": 0,
@@ -451,8 +445,8 @@ window.KECAK_DATA = {
           "otr": 33040000
         }
       ],
-      "baseDiscGross": 2220000,
-      "baseNote": "Super Deals Vario 160 (run out)",
+      "baseDiscGross": 1110000,
+      "baseNote": "Super Deals Vario 160",
       "creditOnly": false,
       "segDiscGross": {
         "hotel": 2220000,
@@ -473,12 +467,6 @@ window.KECAK_DATA = {
           "value": 270000,
           "stock": true,
           "desc": "Selama persediaan masih ada"
-        },
-        {
-          "label": "Jaket Vario 160",
-          "value": 150000,
-          "stock": true,
-          "desc": "Kuota terbatas, selama persediaan ada"
         }
       ]
     },
@@ -502,7 +490,7 @@ window.KECAK_DATA = {
           "otr": 33440000
         }
       ],
-      "baseDiscGross": 333000,
+      "baseDiscGross": 0,
       "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {},
@@ -518,12 +506,6 @@ window.KECAK_DATA = {
           "value": 270000,
           "stock": true,
           "desc": "Selama persediaan masih ada"
-        },
-        {
-          "label": "Jaket Vario 160",
-          "value": 150000,
-          "stock": true,
-          "desc": "Kuota terbatas, selama persediaan ada"
         }
       ]
     },
@@ -791,7 +773,7 @@ window.KECAK_DATA = {
           "otr": 28800000
         }
       ],
-      "baseDiscGross": 0,
+      "baseDiscGross": 1110000,
       "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {},
@@ -914,9 +896,9 @@ window.KECAK_DATA = {
           "otr": 36530000
         }
       ],
-      "baseDiscGross": 5600000,
-      "baseNote": "Run out - khusus pembelian credit",
-      "creditOnly": true,
+      "baseDiscGross": 0,
+      "baseNote": "",
+      "creditOnly": false,
       "segDiscGross": {},
       "gifts": [
         {
@@ -980,9 +962,9 @@ window.KECAK_DATA = {
           "otr": 45550000
         }
       ],
-      "baseDiscGross": 5600000,
-      "baseNote": "Run out tipe tertentu - khusus credit, cek kode unit",
-      "creditOnly": true,
+      "baseDiscGross": 0,
+      "baseNote": "",
+      "creditOnly": false,
       "segDiscGross": {},
       "gifts": [
         {
@@ -1028,9 +1010,9 @@ window.KECAK_DATA = {
           "otr": 92860000
         }
       ],
-      "baseDiscGross": 5600000,
-      "baseNote": "Run out - khusus pembelian credit",
-      "creditOnly": true,
+      "baseDiscGross": 0,
+      "baseNote": "",
+      "creditOnly": false,
       "segDiscGross": {},
       "gifts": [
         {
@@ -1051,7 +1033,7 @@ window.KECAK_DATA = {
           "otr": 28378000
         }
       ],
-      "baseDiscGross": 0,
+      "baseDiscGross": 3996000,
       "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {},
@@ -1085,8 +1067,8 @@ window.KECAK_DATA = {
           "otr": 60312000
         }
       ],
-      "baseDiscGross": 0,
-      "baseNote": "",
+      "baseDiscGross": 17427000,
+      "baseNote": "Tambahan voucher Rp 12.000.000 - tanya sales",
       "creditOnly": false,
       "segDiscGross": {},
       "gifts": [
@@ -1119,9 +1101,9 @@ window.KECAK_DATA = {
           "otr": 46853000
         }
       ],
-      "baseDiscGross": 5600000,
-      "baseNote": "Run out - khusus pembelian credit",
-      "creditOnly": true,
+      "baseDiscGross": 16983000,
+      "baseNote": "Tambahan voucher Rp 6.000.000 - tanya sales",
+      "creditOnly": false,
       "segDiscGross": {},
       "gifts": [
         {
