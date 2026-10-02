@@ -5,10 +5,10 @@
 window.KECAK_DATA = {
   "dealer": "Kecak Motor",
   "waNumber": "6287855909295",
-  "lastUpdated": "2026-09-02",
-  "periodStart": "2026-09-01",
-  "periodEnd": "2026-09-30",
-  "monthLabel": "September 2026",
+  "lastUpdated": "2026-10-02",
+  "periodStart": "2026-10-01",
+  "periodEnd": "2026-10-31",
+  "monthLabel": "Oktober 2026",
   "ppnRate": 0.11,
   "showSegmentAmounts": true,
   "salespeople": {
@@ -137,22 +137,24 @@ window.KECAK_DATA = {
         {
           "id": "mk2",
           "label": "CBS ISS Deluxe",
-          "otr": 21380000
+          "otr": 21380000,
+          "discGross": 555000
         },
         {
           "id": "ml2",
           "label": "DLX Smart Key",
-          "otr": 21990000
+          "otr": 21990000,
+          "discGross": 555000
         }
       ],
-      "baseDiscGross": 0,
-      "baseNote": "",
+      "baseDiscGross": 222000,
+      "baseNote": "Direct Gift Beat Sporty",
       "creditOnly": false,
       "segDiscGross": {
-        "hotel": 666000,
-        "villa": 666000,
-        "kmp": 666000,
-        "sppg": 666000
+        "hotel": 555000,
+        "villa": 555000,
+        "kmp": 555000,
+        "sppg": 555000
       },
       "gifts": [
         {
@@ -179,14 +181,14 @@ window.KECAK_DATA = {
           "otr": 21520000
         }
       ],
-      "baseDiscGross": 555000,
-      "baseNote": "Program Street Warior (via MotorkuX)",
+      "baseDiscGross": 0,
+      "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {
-        "hotel": 666000,
-        "villa": 666000,
-        "kmp": 666000,
-        "sppg": 666000
+        "hotel": 555000,
+        "villa": 555000,
+        "kmp": 555000,
+        "sppg": 555000
       },
       "gifts": [
         {
@@ -210,17 +212,17 @@ window.KECAK_DATA = {
         {
           "id": "ly2",
           "label": "CBS",
-          "otr": 21840000
+          "otr": 21940000
         },
         {
           "id": "lyp",
           "label": "CBS SPC Color",
-          "otr": 22110000
+          "otr": 22210000
         },
         {
           "id": "lz2",
           "label": "CBS ISS",
-          "otr": 22320000
+          "otr": 22420000
         }
       ],
       "baseDiscGross": 0,
@@ -254,8 +256,7 @@ window.KECAK_DATA = {
         {
           "id": "mr0e",
           "label": "Energetic",
-          "otr": 25050000,
-          "discGross": 555000
+          "otr": 25070000
         },
         {
           "id": "mr0c",
@@ -265,48 +266,46 @@ window.KECAK_DATA = {
         {
           "id": "mrae",
           "label": "Fashion",
-          "otr": 25400000,
-          "discGross": 555000
+          "otr": 25420000,
+          "discGross": 1110000
         },
         {
           "id": "mrbe",
           "label": "Fashion (MRBE)",
-          "otr": 25400000,
-          "discGross": 555000
+          "otr": 25420000,
+          "discGross": 1110000
         },
         {
           "id": "mrbc",
           "label": "Fashion (MRBC)",
-          "otr": 25530000
+          "otr": 25530000,
+          "discGross": 1110000
         },
         {
           "id": "mrac",
           "label": "Fashion (MRAC)",
-          "otr": 25530000
+          "otr": 25530000,
+          "discGross": 1110000
         },
         {
           "id": "ms0e",
           "label": "Prestige",
-          "otr": 26280000,
-          "discGross": 555000
+          "otr": 26300000
         },
         {
           "id": "msae",
           "label": "Stylish",
-          "otr": 26280000,
-          "discGross": 555000
+          "otr": 26300000
         },
         {
           "id": "ms1e",
           "label": "Prestige (MS1E)",
-          "otr": 26280000,
-          "discGross": 555000
+          "otr": 26300000
         },
         {
           "id": "msbe",
           "label": "Stylish (MSBE)",
-          "otr": 26280000,
-          "discGross": 555000
+          "otr": 26300000
         },
         {
           "id": "ms1k",
@@ -316,11 +315,12 @@ window.KECAK_DATA = {
         {
           "id": "mrbx",
           "label": "Fashion Special Color",
-          "otr": 27535000
+          "otr": 27575000,
+          "discGross": 1110000
         }
       ],
-      "baseDiscGross": 0,
-      "baseNote": "",
+      "baseDiscGross": 555000,
+      "baseNote": "Sales Discount Scoopy ROTI (non-Fashion)",
       "creditOnly": false,
       "segDiscGross": {
         "hotel": 555000,
@@ -449,11 +449,11 @@ window.KECAK_DATA = {
       "baseNote": "Super Deals Vario 160",
       "creditOnly": false,
       "segDiscGross": {
-        "hotel": 2220000,
-        "villa": 2220000,
-        "kmp": 2220000,
-        "sppg": 2220000,
-        "tradein": 2220000
+        "hotel": 1110000,
+        "villa": 1110000,
+        "kmp": 1110000,
+        "sppg": 1110000,
+        "tradein": 1110000
       },
       "gifts": [
         {
@@ -487,7 +487,8 @@ window.KECAK_DATA = {
         {
           "id": "mz0b",
           "label": "ABS",
-          "otr": 33440000
+          "otr": 33440000,
+          "discGross": 1110000
         }
       ],
       "baseDiscGross": 0,
@@ -549,7 +550,7 @@ window.KECAK_DATA = {
           "otr": 36785000
         }
       ],
-      "baseDiscGross": 0,
+      "baseDiscGross": 555000,
       "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {
@@ -557,7 +558,7 @@ window.KECAK_DATA = {
         "villa": 666000,
         "kmp": 666000,
         "sppg": 666000,
-        "tradein": 666000
+        "tradein": 555000
       },
       "gifts": [
         {
@@ -600,17 +601,15 @@ window.KECAK_DATA = {
           "otr": 43220000
         }
       ],
-      "baseDiscGross": 0,
-      "baseNote": "",
+      "baseDiscGross": 3330000,
+      "baseNote": "Super Deals PCX 160",
       "creditOnly": false,
       "segDiscGross": {
-        "hotel": 999000,
-        "villa": 999000,
-        "kmp": 999000,
-        "sppg": 999000,
-        "ojol": 999000,
-        "rentbike": 999000,
-        "tradein": 999000
+        "hotel": 3330000,
+        "villa": 3330000,
+        "kmp": 3330000,
+        "sppg": 3330000,
+        "tradein": 3330000
       },
       "gifts": [
         {
@@ -654,7 +653,7 @@ window.KECAK_DATA = {
         }
       ],
       "baseDiscGross": 3330000,
-      "baseNote": "Super Deals ADV - berlaku semua tahun rakit",
+      "baseNote": "Super Deals ADV - semua tahun rakit",
       "creditOnly": false,
       "segDiscGross": {
         "hotel": 3330000,
@@ -832,12 +831,12 @@ window.KECAK_DATA = {
         {
           "id": "kf0",
           "label": "SW",
-          "otr": 25730000
+          "otr": 25830000
         },
         {
           "id": "kg0",
           "label": "CW",
-          "otr": 26390000
+          "otr": 26490000
         }
       ],
       "baseDiscGross": 0,
@@ -860,12 +859,12 @@ window.KECAK_DATA = {
         {
           "id": "jr0",
           "label": "STD",
-          "otr": 35640000
+          "otr": 36040000
         },
         {
           "id": "js0",
           "label": "Special Edition",
-          "otr": 36650000
+          "otr": 37050000
         }
       ],
       "baseDiscGross": 0,
@@ -975,54 +974,6 @@ window.KECAK_DATA = {
         }
       ]
     },
-    "cbr250rr": {
-      "name": "Honda CBR250RR",
-      "category": "sport",
-      "variants": [
-        {
-          "id": "ka0",
-          "label": "STD",
-          "otr": 76470000
-        },
-        {
-          "id": "kaa",
-          "label": "STD (KAA)",
-          "otr": 80830000
-        },
-        {
-          "id": "kb0",
-          "label": "ABS",
-          "otr": 88210000
-        },
-        {
-          "id": "kc0",
-          "label": "ABS + QS",
-          "otr": 92260000
-        },
-        {
-          "id": "kca",
-          "label": "ABS + QS (KCA)",
-          "otr": 92860000
-        },
-        {
-          "id": "kcb",
-          "label": "ABS + QS (KCB)",
-          "otr": 92860000
-        }
-      ],
-      "baseDiscGross": 0,
-      "baseNote": "",
-      "creditOnly": false,
-      "segDiscGross": {},
-      "gifts": [
-        {
-          "label": "Safety Tools",
-          "value": 270000,
-          "stock": true,
-          "desc": "Selama persediaan masih ada"
-        }
-      ]
-    },
     "icon-e": {
       "name": "Honda ICON e:",
       "category": "ev",
@@ -1033,8 +984,8 @@ window.KECAK_DATA = {
           "otr": 28378000
         }
       ],
-      "baseDiscGross": 3996000,
-      "baseNote": "",
+      "baseDiscGross": 11603500,
+      "baseNote": "Diskon + Runout EV + Sales Support Tambahan EV",
       "creditOnly": false,
       "segDiscGross": {},
       "gifts": [
@@ -1067,11 +1018,17 @@ window.KECAK_DATA = {
           "otr": 60312000
         }
       ],
-      "baseDiscGross": 17427000,
-      "baseNote": "Tambahan voucher Rp 12.000.000 - tanya sales",
+      "baseDiscGross": 24420000,
+      "baseNote": "Diskon + Runout EV + Sales Support Tambahan EV",
       "creditOnly": false,
       "segDiscGross": {},
       "gifts": [
+        {
+          "label": "Voucher baterai (2 baterai)",
+          "value": 12000000,
+          "stock": true,
+          "desc": "Voucher pembelian baterai - tidak mengurangi harga unit"
+        },
         {
           "label": "Jaket #cari_aman",
           "value": 150000,
@@ -1101,11 +1058,17 @@ window.KECAK_DATA = {
           "otr": 46853000
         }
       ],
-      "baseDiscGross": 16983000,
-      "baseNote": "Tambahan voucher Rp 6.000.000 - tanya sales",
+      "baseDiscGross": 21980000,
+      "baseNote": "Diskon + Runout EV + Sales Support Tambahan EV",
       "creditOnly": false,
       "segDiscGross": {},
       "gifts": [
+        {
+          "label": "Voucher baterai (1 baterai)",
+          "value": 6000000,
+          "stock": true,
+          "desc": "Voucher pembelian baterai - tidak mengurangi harga unit"
+        },
         {
           "label": "Jaket #cari_aman",
           "value": 150000,
