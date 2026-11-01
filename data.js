@@ -5,10 +5,10 @@
 window.KECAK_DATA = {
   "dealer": "Kecak Motor",
   "waNumber": "6287855909295",
-  "lastUpdated": "2026-10-02",
-  "periodStart": "2026-10-01",
-  "periodEnd": "2026-10-31",
-  "monthLabel": "Oktober 2026",
+  "lastUpdated": "2026-11-01",
+  "periodStart": "2026-11-01",
+  "periodEnd": "2026-11-30",
+  "monthLabel": "November 2026",
   "ppnRate": 0.11,
   "showSegmentAmounts": true,
   "salespeople": {
@@ -116,6 +116,11 @@ window.KECAK_DATA = {
       "id": "tradein",
       "label": "Tukar Tambah (motor <155cc)",
       "note": "Motor lama matic di bawah 155cc"
+    },
+    {
+      "id": "payday",
+      "label": "Karyawan tetap (gaji tetap)",
+      "note": "Honda Payday Deals - wajib bukti kerja sektor formal & gaji tetap"
     }
   ],
   "categories": {
@@ -147,8 +152,8 @@ window.KECAK_DATA = {
           "discGross": 555000
         }
       ],
-      "baseDiscGross": 222000,
-      "baseNote": "Direct Gift Beat Sporty",
+      "baseDiscGross": 0,
+      "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {
         "hotel": 555000,
@@ -210,17 +215,17 @@ window.KECAK_DATA = {
       "category": "matic",
       "variants": [
         {
-          "id": "ly2",
+          "id": "ly3",
           "label": "CBS",
-          "otr": 21940000
+          "otr": 22140000
         },
         {
           "id": "lyp",
           "label": "CBS SPC Color",
-          "otr": 22210000
+          "otr": 22410000
         },
         {
-          "id": "lz2",
+          "id": "lz3",
           "label": "CBS ISS",
           "otr": 22420000
         }
@@ -266,26 +271,22 @@ window.KECAK_DATA = {
         {
           "id": "mrae",
           "label": "Fashion",
-          "otr": 25420000,
-          "discGross": 1110000
+          "otr": 25420000
         },
         {
           "id": "mrbe",
           "label": "Fashion (MRBE)",
-          "otr": 25420000,
-          "discGross": 1110000
+          "otr": 25420000
         },
         {
           "id": "mrbc",
           "label": "Fashion (MRBC)",
-          "otr": 25530000,
-          "discGross": 1110000
+          "otr": 25530000
         },
         {
           "id": "mrac",
           "label": "Fashion (MRAC)",
-          "otr": 25530000,
-          "discGross": 1110000
+          "otr": 25530000
         },
         {
           "id": "ms0e",
@@ -315,18 +316,17 @@ window.KECAK_DATA = {
         {
           "id": "mrbx",
           "label": "Fashion Special Color",
-          "otr": 27575000,
-          "discGross": 1110000
+          "otr": 27575000
         }
       ],
-      "baseDiscGross": 555000,
-      "baseNote": "Sales Discount Scoopy ROTI (non-Fashion)",
+      "baseDiscGross": 1110000,
+      "baseNote": "Sales Support Scoopy - semua tipe",
       "creditOnly": false,
       "segDiscGross": {
-        "hotel": 555000,
-        "villa": 555000,
-        "kmp": 555000,
-        "sppg": 555000
+        "hotel": 1110000,
+        "villa": 1110000,
+        "kmp": 1110000,
+        "sppg": 1110000
       },
       "gifts": [
         {
@@ -346,6 +346,12 @@ window.KECAK_DATA = {
           "value": 122100,
           "stock": true,
           "desc": "Khusus varian warna spesial"
+        },
+        {
+          "label": "Jaket Scoopy",
+          "value": 277500,
+          "stock": true,
+          "desc": "Direct gift - selama persediaan masih ada"
         }
       ]
     },
@@ -390,10 +396,10 @@ window.KECAK_DATA = {
       "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {
-        "hotel": 666000,
-        "villa": 666000,
-        "kmp": 666000,
-        "sppg": 666000
+        "hotel": 555000,
+        "villa": 555000,
+        "kmp": 555000,
+        "sppg": 555000
       },
       "gifts": [
         {
@@ -554,10 +560,10 @@ window.KECAK_DATA = {
       "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {
-        "hotel": 666000,
-        "villa": 666000,
-        "kmp": 666000,
-        "sppg": 666000,
+        "hotel": 555000,
+        "villa": 555000,
+        "kmp": 555000,
+        "sppg": 555000,
         "tradein": 555000
       },
       "gifts": [
@@ -605,11 +611,12 @@ window.KECAK_DATA = {
       "baseNote": "Super Deals PCX 160",
       "creditOnly": false,
       "segDiscGross": {
-        "hotel": 3330000,
-        "villa": 3330000,
-        "kmp": 3330000,
-        "sppg": 3330000,
-        "tradein": 3330000
+        "hotel": 4440000,
+        "villa": 4440000,
+        "kmp": 4440000,
+        "sppg": 4440000,
+        "tradein": 3330000,
+        "payday": 4440000
       },
       "gifts": [
         {
@@ -656,11 +663,12 @@ window.KECAK_DATA = {
       "baseNote": "Super Deals ADV - semua tahun rakit",
       "creditOnly": false,
       "segDiscGross": {
-        "hotel": 3330000,
-        "villa": 3330000,
-        "kmp": 3330000,
-        "sppg": 3330000,
-        "tradein": 3330000
+        "hotel": 5550000,
+        "villa": 5550000,
+        "kmp": 5550000,
+        "sppg": 5550000,
+        "tradein": 3330000,
+        "payday": 5550000
       },
       "gifts": [
         {
@@ -984,8 +992,8 @@ window.KECAK_DATA = {
           "otr": 28378000
         }
       ],
-      "baseDiscGross": 11603500,
-      "baseNote": "Diskon + Runout EV + Sales Support Tambahan EV",
+      "baseDiscGross": 4995000,
+      "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {},
       "gifts": [
@@ -1018,8 +1026,8 @@ window.KECAK_DATA = {
           "otr": 60312000
         }
       ],
-      "baseDiscGross": 24420000,
-      "baseNote": "Diskon + Runout EV + Sales Support Tambahan EV",
+      "baseDiscGross": 25419000,
+      "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {},
       "gifts": [
@@ -1058,8 +1066,8 @@ window.KECAK_DATA = {
           "otr": 46853000
         }
       ],
-      "baseDiscGross": 21980000,
-      "baseNote": "Diskon + Runout EV + Sales Support Tambahan EV",
+      "baseDiscGross": 22422000,
+      "baseNote": "",
       "creditOnly": false,
       "segDiscGross": {},
       "gifts": [
